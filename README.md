@@ -2,4 +2,4 @@
 A responsive landing page. 
 
 
-A repsonsive landing page using jquery.
+A repsonsive landing which incorpates some jquery and CSS grids.
