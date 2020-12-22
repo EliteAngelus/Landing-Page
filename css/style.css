@@ -28,6 +28,33 @@ a {
 }
 
 
+/* Text */
+
+p{
+    font-size: 20px;
+    font-family: 'Lato',
+    sans-serif;
+}
+
+.white-background{
+        text-shadow: 2px 2px grey;
+
+}
+
+.lead{
+    text-shadow: 2px 2px black;
+}
+
+.black-on-white{
+    text-shadow: 2px 2px black;
+}
+
+.shadow{
+    text-shadow: 2px 2px black;
+}
+
+
+
 /* Section */
 
 .section {
@@ -43,12 +70,31 @@ a {
     font-size: 2rem;
 }
 
-#entertainment {
+#goals {
     background: url("../img/mic.jpg") no-repeat center/cover;
     padding: 10rem 0;
 }
 
-.gift-cards {
+.know-how{
+    height: 100px;
+    width:100px;
+    padding: 7px;
+    margin: 7px;
+}
+
+.zoom {
+    transition: transform .2s;
+    /* Animation */
+    width: 100px;
+    height: 100px;
+    /* margin: 0 auto; */
+}
+
+.zoom:hover {
+    transform: scale(1.2);
+    /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+.github {
     display: grid;
     grid-gap: 20px;
     grid-template-columns: 1fr 1fr;
@@ -301,10 +347,12 @@ nav a#openup {
     footer .footer-col {
         display: none;
     }
+  
 }
 
 @media screen and (max-width: 580px) {
     #showcase p.lead {
         display: none;
     }
+  
 }
